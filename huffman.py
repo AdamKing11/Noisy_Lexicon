@@ -8,7 +8,6 @@ _ab = 'abcdefghijklmnopqrstuvwxyz'
 def is_num(x):
 	return type(x) not in (list, tuple, np.ndarray)
 
-
 class huff_2:
 	def __init__(self, l):
 		self.l = l
